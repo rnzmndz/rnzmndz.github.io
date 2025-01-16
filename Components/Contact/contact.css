@@ -1,0 +1,45 @@
+@import url('/Components/Common/menu.css');
+
+#contactMe {
+    position: relative;
+    top: 5vh;
+    left: 45vw;
+}
+
+#contact-content {
+    position: relative;
+    left: 25vw;
+    width: 50vw;
+    display: grid;
+    justify-content: center; 
+    margin-top: 10vh;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+#details {
+    
+}
+
+.message, .contact, .subject {
+    text-align: center;
+    font-size: 120%;
+    background: #d9d9d9;
+    height: 50px;
+    font-family: "Klee One", serif;
+    font-weight: 400;
+    font-style: normal;
+    border: none;
+    margin: 8px;
+    border-radius: 20px;
+}
+
+.contact {
+    width: 45.7%;
+}
+.subject {
+    width: 95%;
+}
+.message {
+    width: 95%;
+    height: 200px;
+}
